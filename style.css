@@ -1,3 +1,5 @@
+/* CSS for the outside of boxes */
+
 body {
     margin: 0px;
     background-color: #1F2937;
@@ -7,11 +9,177 @@ body {
 }
 
 .box1, .box2, .box3, .box4 {
-    width: 800px;
-    height: 300px;
+    width: 1000px;
+    height: 500px;
 }
 
 footer {
     margin-top: 10px;
     margin-bottom: 10px;
+    color:#E5E7EB;
 }
+
+/* CSS for the first box */
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    background-color: #606060;
+}
+
+.content1 {
+    width: 700px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header, .introduction {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    gap: 10px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ .secondarytext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.maintext {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8; 
+}
+
+.signup1 {
+    background-color:#3882F6;
+    border: 0px;
+    border-radius: 1px;
+    color: #F9FAF8;
+}
+
+.text1, .placeholder-image {
+    width: 260px;
+    gap: 5px;
+}
+
+.placeholder-image {
+    background-color: grey;
+    border:0;
+}
+
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+/* CSS for the second box */
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;;
+}
+
+.random {
+    
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800px;
+}
+
+.subtext {
+    width: 800px;
+    display: flex;
+    gap: 20px;
+}
+
+.blue-rectangle {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    border: 2px solid #3882F6;
+}
+
+ /* CSS for the third box */
+
+ .box3 {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .content3 {
+    width: 600px;
+    height: 250px;
+ }
+
+
+ .quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300px;
+    color: #1F2937;
+ }
+
+ .writer {
+    display: flex;
+    justify-content: flex-end;
+ }
+
+ /* CSS for the last box */
+
+ .box4 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .contentbox {
+    width: 700px;
+    height: 250px;
+    border-radius: 10px;
+    background: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .content4 {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .toaction {
+    color: #F9FAF8;
+    font-weight: 800;
+ }
+
+ .our-product {
+    color: #E5E7EB;
+ }
+
+ .signup4 {
+    background-color: #3882F6;
+    border:2px solid #F9FAF8;
+    border-radius: 5px;
+    color: #F9FAF8;
+    
+ }
